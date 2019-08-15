@@ -395,7 +395,7 @@
 	font-size: 22px;
 	font-weight: bold;
 	color: rgba(1, 1, 1, 1);
-	margin-bottom: 32px;
+	margin-bottom: 36px;
 }
 
 .company_basic_information_l .company_information .company_information_txt_list {
@@ -411,9 +411,9 @@
 	margin-bottom: 18px;
 }
 
-.company_basic_information_l .company_information .company_information_txt_list .company_information_txt_list_r {
+/* .company_basic_information_l .company_information .company_information_txt_list .company_information_txt_list_r {
 	margin-top: 19px;
-}
+} */
 
 .company_basic_information_l .company_information .company_information_txt_list .company_information_txt_list_r div:nth-of-type(1) {
 	margin-bottom: 18px;
@@ -1294,13 +1294,6 @@ height:39px;*/
 	margin-left: 14px;
 	color: #999;
     margin-left: 14px;
-}
-
-#darkDetail{
-	font-size: 14px;
-	color:#6E3CFF;
-	margin-left: 10px;
-	cursor: pointer;
 }
 
 
