@@ -625,10 +625,10 @@
 .company_bottom .text_center thead tr th {
 	text-align: center;
 }
-
+/* 修改表头的padding值 */
 .layui-table td,
 .layui-table th {
-	padding: 13px 25px;
+	padding: 13px 19px;
 }
 
 .company_bottom .text_center tbody tr td {
@@ -1294,4 +1294,45 @@ height:39px;*/
 	margin-left: 14px;
 	color: #999;
     margin-left: 14px;
+}
+
+#darkDetail{
+	font-size: 14px;
+	color:#6E3CFF;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+
+/* 经营信息 */
+.annual_report .newsTitle span{
+	display: block;
+}
+.annual_report .newsTitle{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:18px 0 20px;
+}
+ .newsBox{
+	margin-top: 30px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.newsBox .newsBoxP {
+	line-height:0;
+	margin-left: 0; 
+	/* margin-top: 30px;  */
+}
+.newsBox .newsMark{
+	margin-left: 0!important; 
+	width: 1008px; 
+	line-height: 24px;
+	padding-bottom: 30px;
+}
+.annual_report .newsTitle span:first-child{
+	font-size: 16px;
+}
+.annual_report .newsTitle span:last-child{
+	font-size: 14px;
+	color: #999;
 }
